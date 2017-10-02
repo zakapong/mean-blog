@@ -32,3 +32,14 @@ ng serve // to run client
 ng build // to make ready for production
 
 nodemon index.js
+
+git branch
+
+git add .
+
+git commit -m "server-set-up"
+git push --all origin
+
+git branch
+
+git checkout master  //merge
