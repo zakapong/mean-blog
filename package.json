@@ -1,0 +1,30 @@
+{
+  "name": "mean-blog",
+  "version": "1.0.0",
+  "description": "MEAN stack with angular 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakapong/mean-blog.git"
+  },
+  "keywords": [
+    "MEAN",
+    "stack",
+    "angular",
+    "2",
+    "application"
+  ],
+  "author": "zack\u001b[D\u001b[D\u001b[Z\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakapong/mean-blog/issues"
+  },
+  "homepage": "https://github.com/zakapong/mean-blog#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "mongoose": "^4.11.14"
+  }
+}
