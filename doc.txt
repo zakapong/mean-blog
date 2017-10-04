@@ -49,5 +49,11 @@ git push
 
 
 https://angular.io/guide/router
+http://mongoosejs.com/docs/guide.html
+
+install body parser
+npm install body-parser --save
+npm install bcrypt-nodejs --save
+
 
 
