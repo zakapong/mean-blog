@@ -42,6 +42,7 @@ git push --all origin
 
 git branch
 
+change branch: $ git checkout iss53
 
 git checkout master  //merge
 git merger server-setup
