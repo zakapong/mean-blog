@@ -56,5 +56,7 @@ install body parser
 npm install body-parser --save
 npm install bcrypt-nodejs --save
 
+MongoDB: C:\Program Files\MongoDB\Server\3.4\bin>mongod.exe --dbpath /Users/rd-zma/mongo-data
 
+angular forms: https://angular.io/guide/reactive-forms
 
