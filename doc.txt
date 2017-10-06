@@ -60,3 +60,6 @@ MongoDB: C:\Program Files\MongoDB\Server\3.4\bin>mongod.exe --dbpath /Users/rd-z
 
 angular forms: https://angular.io/guide/reactive-forms
 
+https://angular.io/guide/http
+
+npm install cors --save
