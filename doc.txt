@@ -63,3 +63,13 @@ angular forms: https://angular.io/guide/reactive-forms
 https://angular.io/guide/http
 
 npm install cors --save
+
+ng generate component login
+
+npm install json-web-token --save
+
+npm install angular2-jwt --save
+
+ng generate component profile
+
+npm install angular2-flash-messages --save
