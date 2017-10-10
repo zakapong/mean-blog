@@ -73,3 +73,8 @@ npm install angular2-jwt --save
 ng generate component profile
 
 npm install angular2-flash-messages --save
+
+auth-guard
+
+bootswatch
+- flatty css file
