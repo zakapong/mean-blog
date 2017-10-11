@@ -78,3 +78,9 @@ auth-guard
 
 bootswatch
 - flatty css file
+
+https://github.com/auth0/angular2-jwt
+https://angular.io/guide/router
+
+https://getbootstrap.com/docs/3.3/components/
+https://www.w3schools.com/howto/howto_css_dropdown.asp
