@@ -36,16 +36,23 @@ export class BlogService {
     this.createAuthenticationHeaders(); // Create headers
     return this.http.get(this.domain + 'blogs/allBlogs', this.options).map(res => res.json());
   }
+
   // Function to get the blog using the id
-    getSingleBlog(id) {
-      this.createAuthenticationHeaders(); // Create headers
-      return this.http.get(this.domain + 'blogs/singleBlog/' + id, this.options).map(res => res.json());
-    }
+  getSingleBlog(id) {
+    this.createAuthenticationHeaders(); // Create headers
+    return this.http.get(this.domain + 'blogs/singleBlog/' + id, this.options).map(res => res.json());
+  }
 
-    // Function to edit/update blog post
-     editBlog(blog) {
-       this.createAuthenticationHeaders(); // Create headers
-       return this.http.put(this.domain + 'blogs/updateBlog/', blog, this.options).map(res => res.json());
-     }
+  // Function to edit/update blog post
+  editBlog(blog) {
+    this.createAuthenticationHeaders(); // Create headers
+    return this.http.put(this.domain + 'blogs/updateBlog/', blog, this.options).map(res => res.json());
+  }
 
-   }
+  // Function to delete a blog
+  deleteBlog(id) {
+    this.createAuthenticationHeaders(); // Create headers
+    return this.http.delete(this.domain + 'blogs/deleteBlog/' + id, this.options).map(res => res.json());
+  }
+
+}
