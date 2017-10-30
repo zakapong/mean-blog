@@ -26,7 +26,7 @@ mongoose.connect(config.uri, (err) => {
 app.use(cors({ origin: 'http://localhost:4200' }));
 app.use(bodyParser.urlencoded({ extended: false })); // parse application/x-www-form-urlencoded
 app.use(bodyParser.json()); // parse application/json
-pp.use(express.static(__dirname + '/public')); // Provide static directory for frontend
+app.use(express.static(__dirname + '/public')); // Provide static directory for frontend
 app.use('/authentication', authentication); // Use Authentication routes in application
 app.use('/blogs', blogs); // Use Blog routes in application
 
