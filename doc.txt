@@ -51,7 +51,7 @@ git push
 
 https://angular.io/guide/router
 http://mongoosejs.com/docs/guide.html
-
+ng generate component navbar
 install body parser
 npm install body-parser --save
 npm install bcrypt-nodejs --save
@@ -84,3 +84,5 @@ https://angular.io/guide/router
 
 https://getbootstrap.com/docs/3.3/components/
 https://www.w3schools.com/howto/howto_css_dropdown.asp
+
+last: npm run build
